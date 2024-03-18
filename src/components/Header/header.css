@@ -1,0 +1,124 @@
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+  align-items: center;
+    column-gap: 8px;
+}
+.logo img{
+    width: 50px;
+    height:100%;
+
+}
+.logo h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+.nav__item a{
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+.nav__icons span i{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.nav__icons .profile img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.nav__icons .profile{
+    position: relative;
+    z-index: 9;
+
+}
+.nav__icons .profile .profile__actions{
+    position: absolute;
+    top: 98%;
+    right: 0;
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+}
+.show__profileActions {
+    display: block !important;
+}
+
+.mobile__menu{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    display: none;
+}
+.nav__active{
+    font-weight: 700 !important ;
+}
+.cart__icon,
+.fav__icon{
+position: relative;
+font-size: 20px;
+}
+.badge{
+    position: absolute;
+    top: 19%;
+    left: 20%;
+    content: '';
+    border-radius: 300px;
+    background: var(--primary-color);
+    color: #fff;
+   
+    font-size: 10px;
+
+    font-weight: 600;
+    width: 10px;
+    height: 20px;
+   
+    z-index: 10;
+}
+.sticky__header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background: #fff
+}
+.one{
+    color:#1f7a36 ;
+font-weight: bold;
+}
+.two{
+    color: #fcc617;
+    font-weight: bold;
+}

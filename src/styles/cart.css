@@ -1,0 +1,17 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+
+}
+td span{
+    cursor: pointer;
+}
+td,th{
+    color: var(--primary-color);
+}
+.content1233{
+    flex-direction: column;
+    display: flex;
+    
+}

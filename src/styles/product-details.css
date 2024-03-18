@@ -1,0 +1,143 @@
+.product__details{
+    margin-top: 150px;
+}
+.product__details h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+
+}
+.product__rating span i{
+color: coral;
+
+}
+.oneiconqq{
+    color: coral;
+    font-weight: 500;
+}
+.product__price{
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+.tab__wrapper {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1rem;
+cursor: pointer;
+}
+.active__tab{
+    font-weight: 600;
+}
+
+.tab__content p{
+    line-height: 30px;
+}
+.review__wrapper ul li span{
+    color: coral;
+    font-weight: 600;
+}
+.review__wrapper ul li p{
+    margin-top: 10px;
+}
+.review__form{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.review__form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form__group input,.form__group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.form__group input:focus, .form__group textarea:focus{
+    outline: none;
+
+}
+.form__group{
+margin-bottom: 30px;
+}
+.form__group span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: coral;
+    font-weight: 600;
+    cursor: pointer;
+}
+.related__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.FullDetails{
+    
+    
+    height:auto;
+    border: 1px solid gray;
+   
+    margin-top: 20px;
+    border-radius: 18px;
+   
+    
+    
+
+
+}
+
+.hide {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+  
+  .visible {
+    max-height: 1000px; /* Adjust as needed */
+  }
+  
+  .hidden {
+    max-height: 0;
+  }
+  .headdddd{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 50px;
+    
+    align-items: center;
+    transition: max-height 1s ease-out;
+    border-radius: 18px;
+  }
+  .details{
+    padding: 20px;
+    
+    margin-top: 20px;
+    
+   
+  }
+  .hide p{
+    padding: 10px;
+  }
+  .headdddd h3{
+    
+    padding-left: 10px;
+  }
+  .stag{
+    color: lightgray;
+  }
+  .onlyone{
+    color: #004f11;
+  }
+  .headdddd p{
+    font-size: 8px;
+  }

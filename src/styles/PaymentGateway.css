@@ -1,0 +1,73 @@
+/* PaymentGateway.css */
+
+.payment-gateway {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .payment-gateway h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-gateway form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-gateway label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .payment-gateway input,
+  .payment-gateway select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .payment-gateway button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-gateway button:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-gateway select {
+    width: 100%;
+  }
+  
+  .payment-gateway input[type="text"],
+  .payment-gateway input[type="email"],
+  .payment-gateway input[type="tel"],
+  .payment-gateway input[type="password"],
+  .payment-gateway input[type="number"],
+  .payment-gateway select {
+    width: 100%;
+  }
+  
+  .payment-gateway .card-details {
+    display: none;
+  }
+  
+  .payment-gateway select[name="paymentMethod"] {
+    margin-bottom: 15px;
+  }
+  
+  .payment-gateway select[name="paymentMethod"]:focus + .card-details {
+    display: block;
+  }
+  
