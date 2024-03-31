@@ -12,6 +12,7 @@ import Clock from '../components/UI/Clock'
 import "../styles/grid.css"
 import useGetData from '../custom-hooks/useGetData'
 
+
 const Home = () => {
 
   const {data:spleasss,loading}=useGetData('spleasss')
@@ -89,6 +90,21 @@ const Home = () => {
               </Row>
           </Container>
 
+        </section>
+
+        <section className='sample'>
+          <Container>
+            <Row>
+              <Col>
+
+              <img src={name}/>
+              <img src={name1}/>
+              <img src={name2}/>
+              <img src={name3}/>
+
+              </Col>
+            </Row>
+          </Container>
         </section>
 
       <section className='timer__count'>
